@@ -64,7 +64,7 @@ def update_weights(w1, b1, w2, b2, dW1, db1, dW2, db2, learning_rate):
     w2 -= learning_rate * dW2
     b2 -= learning_rate * db2
     return w1, b1, w2, b2
-epochs = 10
+epochs = 7
 learning_rate = 0.01
 
 
