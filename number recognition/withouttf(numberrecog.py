@@ -68,6 +68,7 @@ epochs = 10
 learning_rate = 0.01
 
 
+# Training the model
 for epoch in range(epochs):
     Z1, A1, Z2, A2 = forward_propagation(x_train, w1, b1, w2, b2)
     
